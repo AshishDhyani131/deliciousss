@@ -1,0 +1,1 @@
+import{u as e,a as r,j as t}from"./index-ErJWI3BP.js";import{L as c}from"./ListGrid-OHjQQH2d.js";const p=()=>{const{search:s}=e(),a=r(`https://api.spoonacular.com/recipes/complexSearch?apiKey=7a2394fa164140a4a5ecb02d39cb07c4&number=9&query=${s}`,s,"results");return t.jsx(c,{dataList:a})};export{p as default};
